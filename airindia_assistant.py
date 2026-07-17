@@ -17,7 +17,7 @@ except Exception:  # pragma: no cover - fallback for deployment environments
 
 load_dotenv()
 
-DEFAULT_GEMINI_API_KEY = "AQ.Ab8RN6I5MPk1tD_h_MPUV4CqPrcO3prL67zXFuScO_3wSwju7w"
+DEFAULT_GEMINI_API_KEY = ""
 DEFAULT_PDF_DIR = Path(__file__).resolve().parent / "pdfs"
 
 
