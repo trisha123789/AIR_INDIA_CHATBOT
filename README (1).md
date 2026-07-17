@@ -43,14 +43,14 @@ Key features:
    langchain-core
    ```
 
-3. Set up your xAI API key:
+3. Set up your gemini AI API key:
    - Create a `.streamlit/secrets.toml` file in the project root with the following content:
      ```
-     XAI_API_KEY = "your-xai-api-key-here"
+     API_KEY = "your-api-key-here"
      ```
    - Alternatively, set it as an environment variable:
      ```
-     export XAI_API_KEY="your-xai-api-key-here"
+     export API_KEY="your-api-key-here"
      ```
 
 4. Add PDF documents:
@@ -108,5 +108,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- Built with [Streamlit](https://streamlit.io/), [LangChain](https://langchain.com/), and [xAI's Grok](https://x.ai/).
+- Built with [Streamlit](https://streamlit.io/), [LangChain](https://langchain.com/), and [gemini api key).
 - Inspired by simple PDF Q&A tutorials for educational purposes.
