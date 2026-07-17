@@ -1,0 +1,8 @@
+streamlit==1.59.2
+langchain-google-genai==4.2.7
+langchain-community==0.4.2
+langchain-core==1.4.9
+pypdf==6.14.2
+python-dotenv==1.2.2
+google-genai==2.12.1
+pydantic==2.13.4
